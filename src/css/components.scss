@@ -1,0 +1,57 @@
+/* Styles for app-specific components */
+
+.button {
+    --button-bg: linear-gradient(#408fff, #3373cc);
+    --button-hover-bg: linear-gradient(#3981e6, #3375cc);
+    --button-active-bg: linear-gradient(#296dcc, #2666bf);
+
+    padding: 6px 12px;
+    color: #fff;
+    /*background: linear-gradient(#c0c0c0, #f0f0f0, #c0c0c0);*/
+    background: var(--button-bg);
+    border: 1px solid #3373cc;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--button-hover-bg);
+    }
+
+    &:active,
+    &.active {
+        background: var(--button-active-bg);
+    }
+}
+
+.button-group,
+.input-group {
+    display: inline-flex;
+    white-space: nowrap;
+
+    > * {
+        border-radius: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    > :first-child,
+    > :first-child > input {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: none;
+    }
+
+    > :last-child,
+    > :last-child > input {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-left: none;
+    }
+
+    > input,
+    > label > input {
+        display: inline-block;
+        border: 1px solid #c0c0c0;
+    }
+}
+

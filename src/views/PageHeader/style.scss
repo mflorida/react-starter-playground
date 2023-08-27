@@ -1,0 +1,60 @@
+#page-header {
+    --logo-size: 40px;
+
+    /*margin-bottom: calc(var(--logo-size) / 2);*/
+    padding: 1.5rem 2rem;
+    /*background-color: #dcefcc;*/
+    background-color: deepskyblue;
+}
+
+#nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--logo-size);
+    height: var(--logo-size);
+    margin: 0 16px 0 8px;
+    color: royalblue;
+    background-color: lightskyblue;
+    border: 1px solid cornflowerblue;
+    border-radius: calc(var(--logo-size) / 2);
+    font-size: calc(var(--logo-size) / 2);
+    font-weight: bold;    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px cornflowerblue;
+}
+
+#main-nav {
+    height: var(--logo-size);
+    flex: 1 1 0;
+
+    a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 2px 16px 0;
+        margin-right: 8px;
+        /*border-bottom: 2px solid transparent;*/
+        /*color: var(--gray-40);*/
+        color: white;
+        /*background-color: var(--gray-e0);*/
+        background-color: cornflowerblue;
+        /*border: 1px solid var(--gray-d0);*/
+        border: 1px solid royalblue;
+        border-radius: calc(var(--logo-size) / 8);
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            background-color: blue;
+        }
+
+        &.active,
+        &.active:hover {
+            color: #fff;
+            background-color: midnightblue;
+            border-color: darkblue;
+        }
+    }
+
+}

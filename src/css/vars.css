@@ -1,0 +1,27 @@
+/* CSS custom properties */
+
+:root {
+
+    --font-serif: Palatino, 'Times New Roman', Times, serif;
+    --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-mono:  Menlo, Monaco, 'Lucida Console', Courier, monospace;
+
+    --base-font-family: var(--font-sans);
+    --base-font-size: 14px;
+
+    --gray-f0: #f0f0f0;
+    --gray-e0: #e0e0e0;
+    --gray-d0: #d0d0d0;
+    --gray-c0: #c0c0c0;
+    --gray-b0: #b0b0b0;
+    --gray-a0: #a0a0a0;
+    --gray-80: #808080;
+    --gray-70: #707070;
+    --gray-60: #606060;
+    --gray-50: #505050;
+    --gray-40: #404040;
+    --gray-30: #303030;
+    --gray-20: #202020;
+    --gray-10: #101010;
+
+}

@@ -1,0 +1,26 @@
+/* Style rules for App component */
+
+#app {
+    /* DO NOT style the #app element directly since it's not a component  */
+}
+
+#app-wrapper {
+    min-height: 100vh;
+    background-color: var(--gray-f0);
+}
+
+#page {
+    width: 960px;
+    min-height: calc(100vh);
+    margin: 0 auto;
+    /*padding: 20px;*/
+    background-color: #fff;
+    border: 1px solid var(--gray-d0);
+    border-top: none;
+    border-bottom: none;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+#view {
+    padding: 2rem 2rem 0;
+}

@@ -1,0 +1,12 @@
+.idea
+.private
+dist
+build
+node_modules
+
+# macOS
+.DS_Store
+
+# misc
+/**/*--xx*
+/**/*-----*

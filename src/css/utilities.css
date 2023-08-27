@@ -1,0 +1,233 @@
+/* Basic utility classes, using Tailwind syntax where appropriate */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.btm-0,
+.bottom-0 {
+    bottom: 0;
+}
+
+.font-normal {
+    font-style: normal;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-mono {
+    font-family: var(--font-mono);
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.w-0 {
+    width: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.h-0 {
+    height: 0;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+
+/* X AND Y MARGIN */
+
+.m-x-0 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.m-x-2 {
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+.m-x-4 {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.m-x-8 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.m-y-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.m-y-2 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.m-y-4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.m-y-8 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* TOP AND BOTTOM MARGIN */
+
+.m-t-0 {
+    margin-top: 0;
+}
+
+.m-t-2 {
+    margin-top: 0.25rem;
+}
+
+.m-t-4 {
+    margin-top: 0.5rem;
+}
+
+.m-t-8 {
+    margin-top: 1rem;
+}
+
+.m-b-0 {
+    margin-bottom: 0;
+}
+
+.m-b-2 {
+    margin-bottom: 0.25rem;
+}
+
+.m-b-4 {
+    margin-bottom: 0.5rem;
+}
+
+.m-b-8 {
+    margin-bottom: 1rem;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-light-gray,
+.color-lt-gray {
+    color: var(--gray-c0);
+}
+
+.color-med-gray,
+.color-md-gray {
+    color: var(--gray-80);
+}
+
+.color-dark-gray,
+.color-dk-gray {
+    color: var(--gray-40);
+}
+
+/* render shadows *only* below an element */
+.shadow-down-sm {
+    box-shadow:
+        0 1px 0 rgba(0, 0, 0, 0.07),
+        0 2px 0 rgba(0, 0, 0, 0.05),
+        0 3px 0 rgba(0, 0, 0, 0.03),
+        0 4px 0 rgba(0, 0, 0, 0.03),
+        0 5px 0 rgba(0, 0, 0, 0.01),
+        0 6px 0 rgba(0, 0, 0, 0.01);
+}
+/* ... */
+.shadow-down-md {
+    box-shadow:
+        0  1px 0 rgba(0, 0, 0, 0.05),
+        0  2px 0 rgba(0, 0, 0, 0.05),
+        0  3px 0 rgba(0, 0, 0, 0.04),
+        0  4px 0 rgba(0, 0, 0, 0.04),
+        0  5px 0 rgba(0, 0, 0, 0.03),
+        0  6px 0 rgba(0, 0, 0, 0.03),
+        0  7px 0 rgba(0, 0, 0, 0.02),
+        0  8px 0 rgba(0, 0, 0, 0.02),
+        0  9px 0 rgba(0, 0, 0, 0.01),
+        0 10px 0 rgba(0, 0, 0, 0.01);
+}
+
+/* render shadows *only* above an element */
+.shadow-up-sm {
+    box-shadow:
+        0 -1px 0 rgba(0, 0, 0, 0.07),
+        0 -2px 0 rgba(0, 0, 0, 0.05),
+        0 -3px 0 rgba(0, 0, 0, 0.03),
+        0 -4px 0 rgba(0, 0, 0, 0.03),
+        0 -5px 0 rgba(0, 0, 0, 0.01),
+        0 -6px 0 rgba(0, 0, 0, 0.01);
+}
+/* ... */
+.shadow-up-md {
+    box-shadow:
+        0  -1px 0 rgba(0, 0, 0, 0.05),
+        0  -2px 0 rgba(0, 0, 0, 0.05),
+        0  -3px 0 rgba(0, 0, 0, 0.04),
+        0  -4px 0 rgba(0, 0, 0, 0.04),
+        0  -5px 0 rgba(0, 0, 0, 0.03),
+        0  -6px 0 rgba(0, 0, 0, 0.03),
+        0  -7px 0 rgba(0, 0, 0, 0.02),
+        0  -8px 0 rgba(0, 0, 0, 0.02),
+        0  -9px 0 rgba(0, 0, 0, 0.01),
+        0 -10px 0 rgba(0, 0, 0, 0.01);
+}
