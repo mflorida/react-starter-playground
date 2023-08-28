@@ -2,6 +2,8 @@
   "name": "react-starter-playground",
   "version": "0.0.5",
   "description": "Hand-crafted React app with starter files, examples, and Express server",
+  "author": "Mark M. Florida",
+  "license": "UNLICENSED",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -10,8 +12,6 @@
     "build": "NODE_ENV=production webpack",
     "test": "echo 'Error: no test specified' && exit 1"
   },
-  "author": "Mark M. Florida",
-  "license": "UNLICENSED",
   "dependencies": {
     "core-js": "~3.30.2",
     "raf": "~3.4.1",
