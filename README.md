@@ -16,20 +16,18 @@ file makes it all work.
 2. Run `yarn` from the root.
 3. Run `yarn dev` to bring up the playground.
 4. It'll be running on port `3030`, so "get your hands dirty."
-5. When ready to deploy, run `yarn build` and deploy to your server
-   - Simple SPA that can be deployed on any web server
+5. When ready to deploy, run `yarn build` and deploy the `build` directory to any web server
+   - Simple client-side SPA that can be deployed on any web server
    - Uses hash routing for that old-school SPA vibe
 
 ## Info
 
-- Does not depend on `create-react-app` so customizing is straightforward (no 'magic' scripts)
+- Does not depend on `create-react-app`, so customizing is straightforward (no 'magic' scripts)
 - All CSS is hand-written
   - Global utility classes (similar to Tailwind, but _much_ simpler)
   - Component-specific styles
-- 
 - Use the _feature packed_ 'counter' example:
   - Increment or decrement by 1 or 5
   - Add, subtract, multiply, divide (or set equal to) using a specified number
   - Reset counter
-  - Counter value is displayed in a few different areas of the UI using React context
-- 
+  - Counter value is displayed throughout UI using React context
